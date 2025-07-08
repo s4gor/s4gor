@@ -1,3 +1,9 @@
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/s4gor/s4gor/output/snake.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/s4gor/s4gor/output/snake.svg" />
+  <img alt="github-snake" src="https://raw.githubusercontent.com/s4gor/s4gor/output/snake.svg" />
+</picture>
+
 ## Well, you know who I am!
 
 [![LinkedIn](https://custom-icon-badges.demolab.com/badge/LinkedIn-0A66C2?logo=linkedin-white&logoColor=fff)](https://www.linkedin.com/in/emr4ns4gor/) [![X](https://img.shields.io/badge/X-%23000000.svg?logo=X&logoColor=white)](https://twitter.com/emr4ns4gor) [![Gmail](https://img.shields.io/badge/Gmail-D14836?logo=gmail&logoColor=white)](mailto:imran@exeebit.com) [![emran.exeebit.com](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](https://emran.exeebit.com/)
@@ -37,9 +43,3 @@
 ### Version Control
 
 [![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=fff)](#) [![Subversion](https://img.shields.io/badge/Subversion-809CC9?logo=subversion&logoColor=fff)](#)
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/s4gor/s4gor/output/snake.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/s4gor/s4gor/output/snake.svg" />
-  <img alt="github-snake" src="https://raw.githubusercontent.com/s4gor/s4gor/output/snake.svg" />
-</picture>
