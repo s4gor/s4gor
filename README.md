@@ -20,7 +20,7 @@
     <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
   </a>
   <a href="https://s4gor.exeebit.com/">
-    <img src="https://img.shields.io/website?url=https%3A%2F%2Femran.exeebit.com%2F&style=for-the-badge&label=Portfolio" alt="Website" />
+    <img src="https://img.shields.io/website?url=https%3A%2F%2Fs4gor.exeebit.com%2F&style=for-the-badge&label=Portfolio" alt="Website" />
   </a>
 </p>
 
@@ -38,11 +38,11 @@ I believe in efficiency and customization, which is why I exclusively use **Neov
 
 <div align="center">
   <a href="https://github.com/s4gor">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=s4gor&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=s4gor&layout=compact&theme=tokyonight&langs_count=8"/>
+  <img height="180" src="https://github-readme-stats-sigma-five.vercel.app/api?username=s4gor&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
+  <img height="180" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=s4gor&layout=compact&theme=tokyonight&langs_count=8"/>
   </a>
   <br/>
-  <img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=s4gor&theme=tokyonight" alt="s4gor's streak" />
+  <img height="180" src="https://streak-stats.demolab.com?user=s4gor&theme=tokyonight" alt="s4gor's streak" />
 </div>
 
 ---
