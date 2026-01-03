@@ -39,10 +39,7 @@ I believe in efficiency and customization, which is why I exclusively use **Neov
 <div align="center">
   <a href="https://github.com/s4gor">
   <img height="180" src="https://github-readme-stats-sigma-five.vercel.app/api?username=s4gor&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
-  <img height="180" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=s4gor&layout=compact&theme=tokyonight&langs_count=8"/>
   </a>
-  <br/>
-  <img height="180" src="https://streak-stats.demolab.com?user=s4gor&theme=tokyonight" alt="s4gor's streak" />
 </div>
 
 ---
