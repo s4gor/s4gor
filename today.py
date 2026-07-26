@@ -40,11 +40,41 @@ def format_plural(unit):
     return 's' if unit != 1 else ''
 
 
+def github_graphql(query, variables, *, retries=6):
+    """
+    POST to GitHub GraphQL with retries for transient 502/503/504 and rate limits.
+    """
+    last = None
+    for attempt in range(retries):
+        last = requests.post(
+            'https://api.github.com/graphql',
+            json={'query': query, 'variables': variables},
+            headers=HEADERS,
+            timeout=60,
+        )
+        if last.status_code == 200:
+            return last
+        # Transient gateway / overload — common during LOC pagination
+        if last.status_code in (502, 503, 504):
+            wait = min(2 ** attempt, 30)
+            print(f'   GitHub {last.status_code}, retry {attempt + 1}/{retries} in {wait}s...')
+            time.sleep(wait)
+            continue
+        # Secondary rate limit / abuse
+        if last.status_code == 403:
+            wait = int(last.headers.get('Retry-After', min(2 ** attempt * 5, 60)))
+            print(f'   GitHub 403 rate limit, retry {attempt + 1}/{retries} in {wait}s...')
+            time.sleep(wait)
+            continue
+        break
+    return last
+
+
 def simple_request(func_name, query, variables):
     """
     Returns a request, or raises an Exception if the response does not succeed.
     """
-    request = requests.post('https://api.github.com/graphql', json={'query': query, 'variables':variables}, headers=HEADERS)
+    request = github_graphql(query, variables)
     if request.status_code == 200:
         return request
     raise Exception(func_name, ' has failed with a', request.status_code, request.text, QUERY_COUNT)
@@ -144,10 +174,18 @@ def recursive_loc(owner, repo_name, data, cache_comment, addition_total=0, delet
         }
     }'''
     variables = {'repo_name': repo_name, 'owner': owner, 'cursor': cursor}
-    request = requests.post('https://api.github.com/graphql', json={'query': query, 'variables':variables}, headers=HEADERS) # I cannot use simple_request(), because I want to save the file before raising Exception
+    # Cannot use simple_request(): on hard failure we must flush the cache file first
+    request = github_graphql(query, variables)
     if request.status_code == 200:
-        if request.json()['data']['repository']['defaultBranchRef'] != None: # Only count commits if repo isn't empty
-            return loc_counter_one_repo(owner, repo_name, data, cache_comment, request.json()['data']['repository']['defaultBranchRef']['target']['history'], addition_total, deletion_total, my_commits)
+        payload = request.json()
+        # Light pacing so long LOC crawls are less likely to trip gateway errors
+        if QUERY_COUNT['recursive_loc'] % 20 == 0:
+            time.sleep(1)
+        repo = (payload.get('data') or {}).get('repository')
+        if repo is None:
+            return 0
+        if repo.get('defaultBranchRef') is not None: # Only count commits if repo isn't empty
+            return loc_counter_one_repo(owner, repo_name, data, cache_comment, repo['defaultBranchRef']['target']['history'], addition_total, deletion_total, my_commits)
         else: return 0
     force_close_file(data, cache_comment) # saves what is currently in the file before this program crashes
     if request.status_code == 403:
@@ -161,7 +199,8 @@ def loc_counter_one_repo(owner, repo_name, data, cache_comment, history, additio
     only adds the LOC value of commits authored by me
     """
     for node in history['edges']:
-        if node['node']['author']['user'] == OWNER_ID:
+        author = node['node']['author']
+        if author and author.get('user') == OWNER_ID:
             my_commits += 1
             addition_total += node['node']['additions']
             deletion_total += node['node']['deletions']
