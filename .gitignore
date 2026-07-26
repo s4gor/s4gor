@@ -6,4 +6,6 @@ preview.png
 face_source.png
 ascii_face.LOCKED.txt
 ascii_face.txt
-/cache
+cache/*
+!cache/requirements.txt
+!cache/.gitkeep
