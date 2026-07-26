@@ -11,21 +11,6 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=33C4FF&center=true&vCenter=true&width=435&lines=Hello,+I'm+s4gor;I+speak+C%2B%2B,+C,+Go,+Rust,+and+Python;I+build+with+Neovim,+macOS;Welcome+to+my+digital+garden" alt="Typing SVG" />
 </div>
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/emr4ns4gor/">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-  <a href="https://twitter.com/emr4ns4gor">
-    <img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X" />
-  </a>
-  <a href="mailto:imran@exeebit.com">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
-  </a>
-  <a href="https://s4gor.exeebit.com/">
-    <img src="https://img.shields.io/website?url=https%3A%2F%2Fs4gor.exeebit.com%2F&style=for-the-badge&label=Portfolio" alt="Website" />
-  </a>
-</p>
-
 ---
 
 ### 👨‍💻 About Me
