@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.DS_Store
+.venv/
+preview.png
+face_source.png
+ascii_face.LOCKED.txt
+ascii_face.txt
+/cache
