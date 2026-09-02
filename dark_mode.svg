@@ -52,7 +52,7 @@ text, tspan {white-space: pre;}
 <tspan x="430" y="130" class="cc">. </tspan><tspan class="key">Shell</tspan>:<tspan class="cc"> ....................................... </tspan><tspan class="value">Neovim, zsh</tspan>
 <tspan x="430" y="150" class="cc">. </tspan>
 <tspan x="430" y="170" class="cc">. </tspan><tspan class="key">Languages</tspan>.<tspan class="key">Systems</tspan>:<tspan class="cc"> ...................... </tspan><tspan class="value">C, C++, Go, Rust</tspan>
-<tspan x="430" y="190" class="cc">. </tspan><tspan class="key">Languages</tspan>.<tspan class="key">Scripting</tspan>:<tspan class="cc"> .............. </tspan><tspan class="value">Python, JS, TypeScript</tspan>
+<tspan x="430" y="190" class="cc">. </tspan><tspan class="key">Languages</tspan>.<tspan class="key">Scripting</tspan>:<tspan class="cc"> ......... </tspan><tspan class="value">Python, JS, TypeScript, PHP</tspan>
 <tspan x="430" y="210" class="cc">. </tspan><tspan class="key">Focus</tspan>:<tspan class="cc"> ............................ </tspan><tspan class="value">workflows to simple UX</tspan>
 <tspan x="430" y="230" class="cc">. </tspan>
 <tspan x="430" y="250" class="cc">. </tspan><tspan class="key">Editor</tspan>:<tspan class="cc"> ........................................... </tspan><tspan class="value">Neovim</tspan>

@@ -15,45 +15,10 @@
 
 ### 👨‍💻 About Me
 
-I am a polyglot developer passionate about systems programming and high-performance applications. My daily drivers are **C**, **C++**, **Go**, and **Rust**, but I'm equally comfortable in **Python**, **JavaScript**, and **TypeScript**.
+I am a polyglot developer passionate about systems programming and high-performance applications. My daily drivers are **C**, **C++**, **Go**, and **Rust**, but I'm equally comfortable in **Python**, **JavaScript**, **TypeScript**, and **PHP**.
 
 I believe in efficiency and customization, which is why I exclusively use **Neovim** as my editor of choice, running on **macOS** and **Fedora**.
 
----
-
-### 📊 GitHub Stats
-
-<div align="center">
-  <a href="https://github.com/s4gor">
-  <img height="180" src="https://github-readme-stats-sigma-five.vercel.app/api?username=s4gor&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
-  </a>
-</div>
-
----
-
-### 🛠️ Tech Stack
-
-#### **Core Languages**
-![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
-![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white)
-![Rust](https://img.shields.io/badge/rust-%23000000.svg?style=for-the-badge&logo=rust&logoColor=white)
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
-![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
-
-#### **Editor & Environment**
-![Neovim](https://img.shields.io/badge/NeoVim-%2357A143.svg?style=for-the-badge&logo=neovim&logoColor=white)
-![macOS](https://img.shields.io/badge/mac%20os-000000?style=for-the-badge&logo=macos&logoColor=F0F0F0)
-![Fedora](https://img.shields.io/badge/Fedora-51A2DA?style=for-the-badge&logo=fedora&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-
-#### **Frameworks & Tools**
-![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
-![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
-![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
-![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
 
 ---
 
