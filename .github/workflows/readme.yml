@@ -40,4 +40,5 @@ jobs:
           git add dark_mode.svg light_mode.svg cache/
           git diff --staged --quiet && echo "No changes to commit" && exit 0
           git commit -m "chore: update profile README stats"
+          git pull --rebase origin master
           git push
