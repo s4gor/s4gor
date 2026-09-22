@@ -8,14 +8,14 @@
 </div>
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=33C4FF&center=true&vCenter=true&width=435&lines=Hello,+I'm+s4gor;I+speak+C%2B%2B,+C,+Go,+Rust,+and+Python;I+build+with+Neovim,+macOS;Welcome+to+my+digital+garden" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=33C4FF&center=true&vCenter=true&width=435&lines=Hello,+I'm+s4gor;I+speak+C%2B%2B,+Go,+Rust,+and+Python;I+build+with+Neovim,+macOS;Welcome+to+my+digital+garden" alt="Typing SVG" />
 </div>
 
 ---
 
 ### 👨‍💻 About Me
 
-I am a polyglot developer passionate about systems programming and high-performance applications. My daily drivers are **C**, **C++**, **Go**, and **Rust**, but I'm equally comfortable in **Python**, **JavaScript**, **TypeScript**, and **PHP**.
+I am a Systems & Software Developer passionate about turning complex workflows into simple, effortless experiences. My daily drivers are **C++**, **Go**, and **Rust**, but I'm equally comfortable in **Python**, **TypeScript**, and **PHP**.
 
 I believe in efficiency and customization, which is why I exclusively use **Neovim** as my editor of choice, running on **macOS** and **Fedora**.
 
